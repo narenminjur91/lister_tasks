@@ -1,0 +1,23 @@
+{
+    "page_main_title":"The latest news, stories and events shaping IT",
+    "cards":{
+        "0":{
+            "card_name":"News",
+            "card_title":"Interset joins Microfocus family",
+            "card_img_url":"img/Beach.jpg",
+            "card_helptext":"Check out the latest news from Microfocus"
+        },
+        "1":{
+            "card_name":"Event",
+            "card_title":"Cybersecurity Summit 2019",
+            "card_img_url":"img/Bristle Grass.jpg",
+            "card_helptext":"Find out about all the upcoming Microfocus events"
+        },
+        "2":{
+            "card_name":"eBook",
+            "card_title":"Cybersecurity Summit 2019",
+            "card_img_url":"img/Mountain Range.jpg",
+            "card_helptext":"The big data transformation"
+        }
+    }
+}
