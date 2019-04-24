@@ -23,7 +23,7 @@ app.get('/', function(req, res){
   app.use(express.static(__dirname));//Add static middleware to serve css, js and img.
 
   //Read JSON file to get the contents for template
-  fs.readFile("template_data.json", function(err, data){
+  fs.readFile(templateJSON, function(err, data){
     if(!err)
     {
       data = JSON.parse(data);
