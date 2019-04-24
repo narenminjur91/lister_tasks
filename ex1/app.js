@@ -5,6 +5,7 @@ var nunjucks = require("nunjucks");
 
 var app = express();//Object to use the Express API
 var port = 8000;//Port number to listen
+var templateJSON = "json/template_data.json";//Name of the file that contains the template JSON
 
 //Configure Nunjuks with the required options
 nunjucks.configure(__dirname, {
