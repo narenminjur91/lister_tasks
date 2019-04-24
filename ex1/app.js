@@ -1,9 +1,7 @@
 //Require modules
 var express = require('express');
 var fs = require('fs');
-var nunjucks = require('nunjucks');
-var templateJSON = "json/template_data.json"
-
+var nunjucks = require("nunjucks");
 
 var app = express();//Object to use the Express API
 var port = 8000;//Port number to listen
@@ -24,13 +22,11 @@ app.get('/', function(req, res){
   app.use(express.static(__dirname));//Add static middleware to serve css, js and img.
 
   //Read JSON file to get the contents for template
-  fs.readFile(templateJSON, function(err, data){
+  fs.readFile("template_data.json", function(err, data){
     if(!err)
     {
       data = JSON.parse(data);
-      res.render('index.html', data, function(err, html){
-        res.send(html);
-      });//Render the template using the JSON data from the JSON file.
+      res.render('index.html', data);//Render the template using the JSON data from the JSON file.
     }
     else
     {
