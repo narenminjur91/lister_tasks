@@ -1,0 +1,36 @@
+.center-align{
+    text-align: center;
+}
+
+.info-button{
+    background: #0761f5;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.lft-45{
+    position: relative;
+    left:45%;
+}
+
+.form-field-container{
+    display:inline-block;
+    padding: 0px 25px;
+    margin: 10px 0px;
+}
+
+input,select{
+    width:100%;
+}
+
+.width-45{
+    width:45%;
+}
+
+.width-94{
+    width:94%;
+}
